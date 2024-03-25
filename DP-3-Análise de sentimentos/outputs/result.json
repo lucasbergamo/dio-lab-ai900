@@ -1,0 +1,381 @@
+{
+    "documents": [
+        {
+            "id": "id__869",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.18,
+                "neutral": 0.28,
+                "negative": 0.54
+            },
+            "sentences": [
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0.75,
+                        "negative": 0.24
+                    },
+                    "offset": 0,
+                    "length": 28,
+                    "text": " Title: \"The Lost Explorer\"\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.26,
+                        "neutral": 0.71,
+                        "negative": 0.04
+                    },
+                    "offset": 28,
+                    "length": 151,
+                    "text": "In the heart of the dense Amazon rainforest, there lived an explorer named Dr. Amelia Blake, known for her daring adventures and insatiable curiosity. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.98,
+                                "negative": 0.02
+                            },
+                            "offset": 143,
+                            "length": 10,
+                            "text": "adventures",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/1/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.98,
+                                "negative": 0.02
+                            },
+                            "offset": 136,
+                            "length": 6,
+                            "text": "daring",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.08,
+                        "neutral": 0.82,
+                        "negative": 0.1
+                    },
+                    "offset": 179,
+                    "length": 131,
+                    "text": "With her trusted guide, Javier, she embarked on a quest to uncover the hidden secrets of the ancient ruins deep within the jungle.\n",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.99,
+                                "negative": 0.01
+                            },
+                            "offset": 197,
+                            "length": 5,
+                            "text": "guide",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/2/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.99,
+                                "negative": 0.01
+                            },
+                            "offset": 189,
+                            "length": 7,
+                            "text": "trusted",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.02,
+                        "negative": 0.98
+                    },
+                    "offset": 310,
+                    "length": 113,
+                    "text": "Their journey was fraught with peril as they navigated through treacherous terrain and encountered wild animals. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.26,
+                        "neutral": 0.64,
+                        "negative": 0.1
+                    },
+                    "offset": 423,
+                    "length": 100,
+                    "text": "But Amelia's determination never wavered, fueled by her desire to unlock the mysteries of the past.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.06,
+                        "neutral": 0.44,
+                        "negative": 0.5
+                    },
+                    "offset": 523,
+                    "length": 131,
+                    "text": "One fateful day, while exploring a remote part of the jungle, they stumbled upon a forgotten temple concealed by thick vegetation. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.8,
+                        "neutral": 0.13,
+                        "negative": 0.06
+                    },
+                    "offset": 654,
+                    "length": 141,
+                    "text": "Excitement coursed through Amelia as they ventured inside, their torches casting eerie shadows on the walls adorned with intricate carvings.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.06,
+                        "neutral": 0.85,
+                        "negative": 0.09
+                    },
+                    "offset": 795,
+                    "length": 98,
+                    "text": "As they delved deeper into the temple, they discovered a chamber unlike any they had seen before. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.5,
+                        "neutral": 0.48,
+                        "negative": 0.02
+                    },
+                    "offset": 893,
+                    "length": 96,
+                    "text": "In the center stood a pedestal adorned with a dazzling gemstone, emitting an otherworldly glow.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.24,
+                        "neutral": 0.29,
+                        "negative": 0.48
+                    },
+                    "offset": 989,
+                    "length": 150,
+                    "text": "Unable to resist its allure, Amelia reached out to touch the gemstone, triggering a series of ancient mechanisms that sealed them inside the chamber. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.04,
+                        "negative": 0.95
+                    },
+                    "offset": 1139,
+                    "length": 79,
+                    "text": "Panic gripped their hearts as they realized they were trapped with no way out.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.03,
+                        "neutral": 0.44,
+                        "negative": 0.53
+                    },
+                    "offset": 1218,
+                    "length": 153,
+                    "text": "With time running out and their supplies dwindling, Amelia and Javier raced against the clock to decipher the temple's secrets and find a way to escape. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.04,
+                                "negative": 0.96
+                            },
+                            "offset": 1256,
+                            "length": 8,
+                            "text": "supplies",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/11/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.04,
+                                "negative": 0.96
+                            },
+                            "offset": 1265,
+                            "length": 9,
+                            "text": "dwindling",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.07,
+                        "neutral": 0.87,
+                        "negative": 0.06
+                    },
+                    "offset": 1371,
+                    "length": 114,
+                    "text": "They poured over ancient texts and studied the carvings, piecing together clues hidden within the temple's walls.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.21,
+                        "negative": 0.77
+                    },
+                    "offset": 1485,
+                    "length": 157,
+                    "text": "But just as they were on the brink of discovery, they were confronted by a band of ruthless treasure hunters intent on claiming the gemstone for themselves. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.08,
+                        "neutral": 0.34,
+                        "negative": 0.58
+                    },
+                    "offset": 1642,
+                    "length": 156,
+                    "text": "Faced with danger from all sides, Amelia and Javier must summon all their courage and resourcefulness to outwit their adversaries and secure their freedom.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.14,
+                        "neutral": 0.79,
+                        "negative": 0.07
+                    },
+                    "offset": 1798,
+                    "length": 130,
+                    "text": "In a daring escape filled with twists and turns, they narrowly evade capture and emerge triumphant from the depths of the jungle. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 1818,
+                            "length": 6,
+                            "text": "escape",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/15/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 1811,
+                            "length": 6,
+                            "text": "daring",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.45,
+                        "neutral": 0.5,
+                        "negative": 0.06
+                    },
+                    "offset": 1928,
+                    "length": 147,
+                    "text": "Though their bodies bear the scars of their ordeal, their spirits remain unbroken, forever bound by the shared experience of their epic adventure.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.06,
+                        "neutral": 0.9,
+                        "negative": 0.04
+                    },
+                    "offset": 2075,
+                    "length": 93,
+                    "text": "As they emerge from the jungle, Amelia reflects on the journey that has changed her forever. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.12,
+                        "neutral": 0.38,
+                        "negative": 0.5
+                    },
+                    "offset": 2168,
+                    "length": 202,
+                    "text": "Though the gemstone may remain lost to the world, she carries with her the knowledge gained from their harrowing quest, a testament to the indomitable human spirit and the enduring power of exploration.",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}
